@@ -40,4 +40,10 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+    // OkHttp
+    implementation("com.squareup.okhttp3:okhttp:4.9.0") // このバージョンは適宜最新のものに更新してください
+    // OkHttp WebSocket
+    implementation("com.squareup.okhttp3:okhttp:4.9.0")
+    // Okio
+    implementation("com.squareup.okio:okio:2.8.0") // このバージョンは適宜最新のものに更新してください
 }
